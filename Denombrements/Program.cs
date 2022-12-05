@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,7 @@ namespace Denombrements
                 if (c == 0) { Environment.Exit(0); }
 
                 if (c == 1)
+
                 {
                     Console.Write("nombre total d'éléments à gérer = "); // le nombre d'éléments à gérer
                     int n = int.Parse(Console.ReadLine()); // saisir le nombre
